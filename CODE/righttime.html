@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>RightTime</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+<style>
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  flex: 1;
+  cursor: pointer;
+  width: 200px;
+}
+
+.button2 {background-color: #008CBA;}
+
+
+
+
+
+
+</style>
+<script language="javascript">
+
+
+
+
+function initialSetup() {
+
+    setTimeout(function() {
+      document.getElementById('sp').style.visibility ='hidden';
+    }, 2000)
+
+    setTimeout(function() {
+      document.getElementById('bt').style.visibility ='visible';
+    }, 2000)
+}
+
+initialSetup();
+
+</script>
+</head>
+<body style="overflow: hidden;">
+
+<div class="container-fluid">
+
+   <h1 class="display-5" align="center">RightTime</h1><BR>
+     <h3 class="display-6" align="center">"Identifying Resources On Hidden Hands"</h3>
+   <div class="w3-container w3-center w3-animate-top">
+
+     <img src="tlogo.png" height="20%" width="20%">
+ </div>
+ <h1 class="display-4" align="center"></h1>
+ <center>
+ 	 <div id="bt" style="visibility: hidden;">
+
+
+<a href="volunteerregister.php" class="button button2" value="Register" align="center">Be a Volunteer</button></a>
+<a href="register.php" class="button button2" value="Register" align="center">Register</button></a>
+
+
+<a href="login.php"><button class="button button2" value="Register">Login</button></a>
+
+</div>
+</center>
+
+<div style="visibility: visible;" id="sp">
+<div class="w3-row" style="padding-left: 20px;">
+	<div class="w3-container w3-center w3-spin">
+     <i class="fa fa-spinner" style="font-size:100px;color:#58D68D" align="center"></i>
+ </div>
+</div>
+</div>
+<div>
+</body>
+</html>
